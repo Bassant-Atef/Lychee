@@ -19,7 +19,9 @@ describe('Bulid your own salad', () => {
       cy.get('[class="salad-cart-total-next-btn CanGoNext CanGoNext2"]').click({force: true , multiple:true});
       cy.get('[class="salad-cart-total-next-btn CanGoNext CanGoNext2"]').click({force: true , multiple:true});
       cy.get('[class="salad-cart-total-next-btn CanGoNext CanGoNext2"]').click({force: true , multiple:true});
-      cy.get('[class="salad-cart-total-next-btn CanGoNext CanGoNext2"]').click({force: true , multiple:true});
+      cy.get('[class="salad-cart-total-next-btn CanGoNext CanGoNext2 show-review"]').click({force: true , multiple:true});
+      cy.get('[class=" express_checkout  btn add_salad_to_cart"]').click({force: true , multiple:true});
+  
     });
   });
   
